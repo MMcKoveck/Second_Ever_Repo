@@ -4,7 +4,7 @@
 Important steps for git workflow:
 
 1. Initialize repository with git init
-  1a. Create a .gitignore file with touch .gitignore
+1a. Create a .gitignore file with touch .gitignore
 2. Create changes to project files like with nano fileName
 3. Check status of those files with git status
 4. Stage changes for commit with git add fileName for one file or git add . for everything
@@ -18,3 +18,4 @@ Important steps for git workflow:
 12. git branch -d branchNameToDelete deletes branch, but it can't be working branch!
 13. git branch -D branchNameToDelete deletes branch when there are no commits. BE CAREFUL
 14. git merge branchNameToMerge (do this from main!)
+15. remember to update your PAT

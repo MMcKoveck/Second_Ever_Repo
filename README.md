@@ -16,4 +16,4 @@ Important steps for git workflow:
 11. git branch by itself shows which branch you're on, along with all other branches 
 12. git branch -d branchNameToDelete deletes branch, but it can't be working branch!
 13. git branch -D branchNameToDelete deletes branch when there are no commits. BE CAREFUL
-
+14. git merge branchNameToMerge (do this from main!)

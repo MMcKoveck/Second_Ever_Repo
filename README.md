@@ -19,3 +19,7 @@ Important steps for git workflow:
 13. git branch -D branchNameToDelete deletes branch when there are no commits. BE CAREFUL
 14. git merge branchNameToMerge (do this from main!)
 15. remember to update your PAT
+16. git fetch to like, stage to computer
+17. git diff to check changes
+18. git pull --ff-only origin main #=> --ff-only to Fast Forward => 'OM' to say where it's going
+19. Essentially, git pull --ff-only combines git fetch and git merge --ff-only into one command.

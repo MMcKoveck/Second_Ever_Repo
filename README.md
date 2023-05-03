@@ -23,5 +23,6 @@ Important steps for git workflow:
 17. git diff origin/main main to check changes
 18. git pull --ff-only origin main #=> --ff-only to Fast Forward => 'OM' to say where it's going
 19. Essentially, git pull --ff-only combines git fetch and git merge --ff-only into one command.
-20. git clone <remote repository url> <(new or existing)local directory name(unspecified uses 
-name from url)> will clone remote repo to local
+20. git clone <remote repository url or local repository absolute path> <(new or existing)local 
+directory name(unspecified uses name from url)> will clone existing repo to local
+21. DO NOT NEST REPOSITORIES, SIR!

@@ -13,3 +13,4 @@ Important steps for git workflow:
 7. git branch branchName makes new branch
 8. git checkout branchName moves to declared branch
 9. git branch -b newBranchName makes and moves to new branch all at once
+10. git branch by itself shows which branch you're on, along with all other branches 

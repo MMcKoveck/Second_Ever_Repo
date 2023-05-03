@@ -4,6 +4,7 @@
 Important steps for git workflow:
 
 1. Initialize repository with git init
+  1a. Create a .gitignore file with touch .gitignore
 2. Create changes to project files like with nano fileName
 3. Check status of those files with git status
 4. Stage changes for commit with git add fileName for one file or git add . for everything
